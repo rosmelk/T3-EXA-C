@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistroLibro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="9dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp">
+            <Button
+                android:id="@+id/btnGuardar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GUARDAR" />
+
+        </LinearLayout>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="     REGISTRO DE LIBRO"
+            android:textAlignment="center"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:textColor="#A80F04"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="TITULO:"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#262627"/>
+
+            <EditText
+                android:id="@+id/txtTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_marginTop="10dp"
+                android:maxLength="100"
+                android:layout_weight="1"
+                android:hint="Titulo"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="RESUMEN:"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#262627"/>
+            <EditText
+                android:id="@+id/txtResumen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_marginTop="10dp"
+                android:maxLength="100"
+                android:layout_weight="1"
+                android:hint="resumen"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="AUTOR:"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#262627"/>
+            <EditText
+                android:id="@+id/txtAutor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_marginTop="10dp"
+                android:maxLength="100"
+                android:layout_weight="1"
+                android:hint="Autor"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="FECHA PUBLICACION:"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#262627"/>
+            <EditText
+                android:id="@+id/txtFechaPu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_marginTop="10dp"
+                android:maxLength="100"
+                android:layout_weight="1"
+                android:hint="Fecha de publicacion"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="TIENDA 1:"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#262627"/>
+            <EditText
+                android:id="@+id/txtTda1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_marginTop="10dp"
+                android:maxLength="100"
+                android:layout_weight="1"
+                android:hint="-7.1515, -78.4141"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="TIENDA 2:"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#262627"/>
+            <EditText
+                android:id="@+id/txtTda2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_marginTop="10dp"
+                android:maxLength="100"
+                android:layout_weight="1"
+                android:hint="-7.1515, -78.4141"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="TIENDA 3:"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#262627"/>
+            <EditText
+                android:id="@+id/txtTda3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_marginTop="10dp"
+                android:maxLength="100"
+                android:layout_weight="1"
+                android:hint="-7.1515, -78.4141"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="IMAGEN:"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#262627"/>
+            <EditText
+                android:id="@+id/imagenUrl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_marginTop="1dp"
+                android:maxLength="100"
+                android:layout_weight="1"
+               />
+
+            <ImageView
+                android:id="@+id/txtImagen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@android:drawable/ic_menu_camera" />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
